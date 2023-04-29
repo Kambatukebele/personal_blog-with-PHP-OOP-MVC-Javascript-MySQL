@@ -1,0 +1,1 @@
+google auth: https://medium.com/@laraveltuts/how-to-login-with-google-in-php-3c9ea2abe2eb

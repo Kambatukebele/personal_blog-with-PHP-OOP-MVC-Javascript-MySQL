@@ -1,0 +1,93 @@
+:root {
+  --playfair: "Playfair Display", serif;
+  --montsettat: "Montserrat", sans-serif;
+  --late: "Lato", sans-serif;
+
+  /* COLORS */
+
+  --black: #000000;
+  --light-gray: #adadad;
+  --green-light: #a2ad93;
+}
+.register {
+  background-color: rgba(128, 128, 128, 0.089);
+  margin: 50px 0;
+}
+.register_all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.register_all h1 {
+  font-family: var(--playfair);
+  font-weight: 700;
+  line-height: 40px;
+  color: #000;
+  font-size: 36px;
+}
+
+/* FORM REGISTRATION */
+.form_all {
+  width: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 10px;
+  height: auto;
+  background-color: rgba(128, 128, 128, 0.089);
+  border-radius: 10px;
+}
+.form__inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.form__input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.form__input label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000;
+  font-family: var(--late);
+}
+.form__input input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #000;
+  font-family: var(--late);
+  width: 280px;
+  background-color: white;
+  border: none;
+  padding: 8px 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.form_button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.form_button button {
+  background-color: var(--green-light);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  width: 130px;
+}
+.form__transfert,
+.form__api--text {
+  margin: 10px 0;
+  font-size: 13px;
+  font-family: var(--playfair);
+}
