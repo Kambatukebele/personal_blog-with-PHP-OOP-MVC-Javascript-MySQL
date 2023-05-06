@@ -19,12 +19,14 @@ class Controller
 
   }
 
-  private function model($model)
-  {
-    $FILENAME = "../app/models/". $model. ".php";
-    if (file_exists($FILENAME)) {
-      require $FILENAME;
-      $model = new $model;
-    }
-  }
+  // public function model($model)
+  // {
+  //   $FILENAME = "../app/models/". $model. ".php";
+  //   if (file_exists($FILENAME)) {
+  //     require $FILENAME;
+  //      $model = new $model();
+  //   }
+
+  //   return false; 
+  // }
 }

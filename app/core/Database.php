@@ -21,7 +21,7 @@
       }
     }
 
-    public function db_Read (string $query, array $data)
+    private function db_Read (string $query, array $data)
     {
       // here we going to read from the data
       $conn = $this->db_connect();
@@ -37,7 +37,7 @@
       return false;
     }
 
-    public function db_ReadRow (string $query, array $data)
+    private function db_ReadRow (string $query, array $data)
     {
       // here we going to read from the data
       $conn = $this->db_connect();
@@ -73,5 +73,4 @@
 
   }
 
-  $db = new Database();
  
